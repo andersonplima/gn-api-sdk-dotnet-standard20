@@ -1,13 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gerencianet.SDK", "Gerencianet.SDK\Gerencianet.SDK.csproj", "{E4D26948-353C-4A54-BC5B-B70413EE4206}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gerencianet.SDK.Examples", "Gerencianet.SDK.Examples\Gerencianet.SDK.Examples.csproj", "{5FA1AF4A-4382-48C1-98F0-BD220E94480A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gerencianet.SDK.Tests", "Gerencianet.SDK.Tests\Gerencianet.SDK.Tests.csproj", "{63ABEA86-B730-44AC-BFC8-BB02C1DE3711}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB963649-BD51-4AD4-9519-897CC1582460}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+		CHANGELOG.md = CHANGELOG.md
+		Gerencianet.SDK.nuspec = Gerencianet.SDK.nuspec
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +39,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {329C52F2-B711-4F8D-8B6F-D2B54B6AE756}
 	EndGlobalSection
 EndGlobal

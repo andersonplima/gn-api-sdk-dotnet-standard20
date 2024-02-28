@@ -19,7 +19,7 @@ namespace Gerencianet.SDK.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -64,27 +64,27 @@ namespace Gerencianet.SDK.Properties {
         ///   Looks up a localized string similar to {
         ///  &quot;CreateCharge&quot;: {
         ///    &quot;route&quot;: &quot;/charge&quot;,
-        ///    &quot;method&quot;: &quot;post&quot;
+        ///    &quot;method&quot;: &quot;POST&quot;
         ///  },
         ///  &quot;DetailCharge&quot;: {
         ///    &quot;route&quot;: &quot;/charge/:id&quot;,
-        ///    &quot;method&quot;: &quot;get&quot;
+        ///    &quot;method&quot;: &quot;GET&quot;
         ///  },
         ///  &quot;UpdateChargeMetadata&quot;: {
         ///    &quot;route&quot;: &quot;/charge/:id/metadata&quot;,
-        ///    &quot;method&quot;: &quot;put&quot;
+        ///    &quot;method&quot;: &quot;PUT&quot;
         ///  },
         ///  &quot;UpdateBillet&quot;: {
         ///    &quot;route&quot;: &quot;/charge/:id/billet&quot;,
-        ///    &quot;method&quot;: &quot;put&quot;
+        ///    &quot;method&quot;: &quot;PUT&quot;
         ///  },
         ///  &quot;PayCharge&quot;: {
         ///    &quot;route&quot;: &quot;/charge/:id/pay&quot;,
-        ///    &quot;method&quot;: &quot;post&quot;
+        ///    &quot;method&quot;: &quot;POST&quot;
         ///  },
         ///  &quot;CancelCharge&quot;: {
         ///    &quot;route&quot;: &quot;/charge/:id/cancel&quot;,
-        ///    &quot;method&quot;: &quot;put&quot;
+        ///    &quot;method&quot;: &quot;PUT&quot;
         ///  },
         ///  &quot;CreateCarnet&quot;: [rest of string was truncated]&quot;;.
         /// </summary>
